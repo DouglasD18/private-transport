@@ -1,10 +1,6 @@
-import { Driver } from ".";
+import { Driver, GoogleApiResponse } from ".";
 
-export interface PostResponse {
-  origin: Location,
-  destination: Location,
-  distance: number,
-  duration: number,
+export interface PostResponse extends GoogleApiResponse {
   options: Driver[],
   routeResponse?: object
 }
