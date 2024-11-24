@@ -19,16 +19,16 @@ const REQUEST: HttpRequest = {
 }
 
 const DRIVER: Driver = {
-  id: 0,
-  name: "",
-  description: "",
-  vehicle: "",
+  id: 88,
+  name: "any_name",
+  description: "any_description",
+  vehicle: "any_vehicle",
   review: {
-    rating: 0,
-    comment: ""
+    rating: 27,
+    comment: "any_comment"
   },
-  value: 0,
-  km: 0
+  value: 9,
+  km: 17
 }
 
 const ORIGIN: Location = {
@@ -42,10 +42,10 @@ const DESTINATION: Location = {
 }
 
 const RESPONSE: PostResponse = {
-  origin: undefined,
-  destination: undefined,
-  distance: 0,
-  duration: 0,
+  origin: ORIGIN,
+  destination: DESTINATION,
+  distance: 33,
+  duration: 78,
   options: [
     DRIVER
   ]
