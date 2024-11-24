@@ -1,5 +1,5 @@
-export interface PostRequest {
-  customerId: string
-  origin: string;
-  destination: string;
+import { GoogleApiPayload } from ".";
+
+export interface PostRequest extends GoogleApiPayload {
+  customerId: string;
 }

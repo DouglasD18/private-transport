@@ -5,9 +5,7 @@ export interface PostResponse {
   destination: Location,
   distance: number,
   duration: number,
-  options: [
-    Driver
-  ],
+  options: Driver[],
   routeResponse?: object
 }
 
