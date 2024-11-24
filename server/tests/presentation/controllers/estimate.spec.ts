@@ -44,7 +44,7 @@ const RESPONSE: PostResponse = {
   origin: ORIGIN,
   destination: DESTINATION,
   distance: 33,
-  duration: 78,
+  duration: "1 hora e 30 minutos",
   options: [
     DRIVER
   ]

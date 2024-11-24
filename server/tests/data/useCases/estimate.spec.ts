@@ -33,7 +33,7 @@ const API_RESPONSE: GoogleApiResponse = {
   origin: ORIGIN,
   destination: DESTINATION,
   distance: 33,
-  duration: 78
+  duration: "2 horas"
 }
 
 const RESPONSE: PostResponse = {
